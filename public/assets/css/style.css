@@ -1,0 +1,45 @@
+body {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #3a5164;
+    overflow-y: hidden;
+    position: relative;
+}
+
+#logo {
+    width: 120px;
+    height: 120px;
+    background-image: url(/assets/images/MWLogo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    position: absolute;
+    top: calc(18% + 120px);
+    transform: translateY(0);
+    width: 80%;
+}
+
+#definition {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.bold {
+    font-weight: 700;
+}
